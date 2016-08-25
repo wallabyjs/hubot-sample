@@ -14,9 +14,9 @@ module.exports = function () {
     },
     testFramework: 'mocha',
 
-    bootstrap: function bootstrap() {
+    bootstrap: function bootstrap(w) {
       require('./tests/setup');
-      require('coffee-script/register');
+      require(require('path').join(w.localProjectDir, 'node_modules/coffee-script'));
     },
   };
 };
