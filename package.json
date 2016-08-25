@@ -1,0 +1,20 @@
+{
+  "name": "hubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wallaby.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "hubot": "^2.19.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
